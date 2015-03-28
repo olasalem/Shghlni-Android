@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="${relativePackage}.${activityClass}" >
+
+        <TextView
+            android:id="@+id/Searchprompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/Areaprompt"
+            android:layout_marginTop="27dp"
+            android:text="Qualification: "
+            android:textColor="#357EC7"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/AreaSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/SkillsSpinner"
+            android:layout_below="@+id/Areaprompt"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/SkillsSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Searchprompt"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/Searchprompt"
+            android:layout_marginTop="28dp"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/SearchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/AreaSpinner"
+            android:layout_marginTop="39dp"
+            android:gravity="center"
+            android:text="Search" />
+
+        <Button
+            android:id="@+id/FillButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/SearchButton"
+            android:layout_marginTop="25dp"
+            android:text="Fill Request" />
+
+        <TextView
+            android:id="@+id/Areaprompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/SkillsSpinner"
+            android:layout_marginLeft="108dp"
+            android:layout_marginTop="22dp"
+            android:text="Search In:"
+            android:textColor="#357EC7"
+            android:textSize="15sp" />
+
+</RelativeLayout>

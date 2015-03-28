@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<RelativeLayout tools:context="${relativePackage}.${activityClass}" 
+    android:layout_height="match_parent" 
+    android:layout_width="match_parent"
+     xmlns:tools="http://schemas.android.com/tools" 
+     xmlns:android="http://schemas.android.com/apk/res/android">
+     <TextView android:layout_height="wrap_content"
+          android:layout_width="wrap_content" 
+          android:id="@+id/Name" 
+          android:textSize="20sp" 
+          android:textColor="#357EC7"
+               android:layout_marginTop="55dp"
+            android:layout_centerHorizontal="true"
+            android:text="AY HABAL "> 
+      </TextView>
+
+       <TextView android:layout_height="wrap_content" 
+                            android:layout_width="wrap_content"
+                             android:id="@+id/Area" 
+                             android:textSize="15sp" 
+                             android:textColor="#808080" 
+                           
+                             android:layout_toRightOf="@+id/item123"
+                             android:layout_alignTop="@+id/item123"
+                             android:layout_alignBottom="@+id/item123"
+                             android:layout_marginRight="35dp"
+                             android:text="kjdskjfk"
+
+                 />
+        <TextView android:layout_height="wrap_content"
+                          android:layout_width="wrap_content"
+                            android:id="@+id/item456"
+                             android:textSize="15sp"
+                              android:textColor="#357EC7" 
+                              android:layout_marginTop="159dp"
+                               android:text="Rate-Per-Hour: "
+                               android:layout_alignLeft="@+id/item123"
+
+                               />
+        <TextView android:layout_height="wrap_content"
+                              android:layout_width="wrap_content" 
+                              android:id="@+id/RPH" 
+                              android:textSize="12sp"
+                              android:textColor="#808080"
+                              android:layout_marginLeft="18dp"
+                              android:layout_toRightOf="@+id/item456"
+                              android:layout_alignTop="@+id/item456"
+                              android:layout_alignBottom="@+id/item456"   />
+
+       <TextView android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                android:id="@+id/item678" 
+                android:textSize="15sp" 
+                android:textColor="#357EC7" 
+               android:layout_marginTop="135dp"
+               android:layout_alignLeft="@+id/item456"
+               android:text="Phone 2: "/>
+
+       <TextView android:layout_height="wrap_content"
+                              android:layout_width="wrap_content" 
+                              android:id="@+id/p1" 
+                              android:textSize="18sp"
+                              android:textColor="#808080" 
+                              android:layout_toRightOf="@+id/item678"
+                              android:layout_alignTop="@+id/item678"
+                              android:layout_alignBottom="@+id/item678"
+                              android:text="test"
+
+                            />
+                         <TextView android:layout_height="wrap_content" 
+                             android:layout_width="wrap_content" 
+                            android:id="@+id/item789" 
+                            android:textSize="15sp" 
+                            android:textColor="#357EC7" 
+                            android:text="Phone1: "
+                            android:layout_alignLeft="@+id/item456"
+                            android:layout_marginTop="111dp"/>
+
+                         <TextView android:layout_height="wrap_content" 
+                             android:layout_width="wrap_content" 
+                             android:id="@+id/p2" 
+                             android:textSize="12sp" 
+                             android:textColor="#808080" 
+                             android:layout_alignTop="@+id/item789"
+                             android:layout_alignLeft="@+id/p1"
+
+                             />
+
+                             <QuickContactBadge 
+                                 android:layout_height="wrap_content" 
+                                 android:layout_width="wrap_content" 
+                                 android:id="@+id/quickContactBadge1" 
+                                 android:layout_marginLeft="15dp"
+                                 android:layout_marginTop="15dp"
+                                 android:layout_centerHorizontal="true"
+
+                                 />
+
+                             <Button
+                                 android:id="@+id/SIGNOUT"
+                                 style="?android:attr/buttonStyleSmall"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_alignBottom="@+id/button1"
+                                 android:layout_alignParentRight="true"
+                                 android:layout_alignParentTop="true"
+                                 android:layout_toRightOf="@+id/button1"
+                                 android:text="SignOut" />
+
+                             <TextView
+                                 android:id="@+id/item123"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_alignParentLeft="true"
+                                 android:layout_below="@+id/item456"
+                                 android:layout_marginLeft="20dp"
+                                 android:text="Area: "
+                                 android:textColor="#357EC7"
+                                 android:textSize="15sp" />
+
+                             <Button
+                                 android:id="@+id/UPDATE"
+                                 style="?android:attr/buttonStyleSmall"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_alignParentTop="true"
+                                 android:layout_toLeftOf="@+id/SIGNOUT"
+                                 android:text="Update" />
+
+                             <TextView
+                                 android:id="@+id/Qualifications"
+                                 android:layout_width="fill_parent"
+                                 android:layout_height="wrap_content"
+                                 android:layout_alignLeft="@+id/item123"
+                                 android:layout_centerVertical="true"
+                                 android:text="Qualifications:"
+                                 android:textColor="#357EC7"
+                                 android:textSize="15sp" />
+
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" 
+    android:background="#ffffff">
+
+    <Button
+        android:id="@+id/SIGNIN"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/SIGNUPNOW"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/main_header_selector"
+        android:text="Sign in"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_alignRight="@+id/editText2"
+        android:ems="10"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPersonName"
+        android:text="UserName"
+        android:layout_centerVertical="true"
+        android:textColor="#b6b6b4" />
+
+     <RadioGroup
+         android:id="@+id/radioGroup1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/SIGNIN"
+         android:layout_alignLeft="@+id/editText1"
+         android:layout_marginBottom="14dp"
+         android:layout_marginLeft="39dp" >
+
+         <RadioButton
+             android:id="@+id/radioGroupButton0"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignRight="@+id/editText2"
+             android:layout_below="@+id/editText2"
+             android:layout_marginRight="20dp"
+             android:text="Arabic"
+             android:textColor="#98999e" />
+
+         <RadioButton
+             android:id="@+id/radioGroupButton1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/radioGroupButton0"
+             android:layout_alignBottom="@+id/radioGroupButton0"
+             android:layout_alignLeft="@+id/editText1"
+             android:checked="true"
+             android:text="English"
+             android:textColor="#9fa0a7" />
+     </RadioGroup>
+
+     <EditText
+         android:id="@+id/editText2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/radioGroup1"
+         android:layout_centerHorizontal="true"
+         android:ems="10"
+         android:inputType="textPassword"
+         android:text="Password"
+         android:textColor="#b6b6b4" />
+
+     <Button
+         android:id="@+id/SIGNUPNOW"
+         android:layout_width="277dp"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/SIGNIN"
+         android:layout_alignParentBottom="true"
+         android:layout_alignRight="@+id/SIGNIN"
+         android:layout_marginBottom="22dp"
+         android:background="@drawable/main_header_selector"
+         android:text="Sign Up Now!"
+         android:textColor="#ffffff"
+         android:textStyle="bold" />
+
+     <ImageView
+         android:id="@+id/image"
+         android:layout_width="300dp"
+         android:layout_height="450dp"
+         android:layout_above="@+id/editText1"
+         android:layout_centerHorizontal="true"
+         android:src="@drawable/slogo" />
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000000"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="88px"
+        android:layout_height="88px"
+        android:layout_marginLeft="16px"
+        android:layout_marginRight="40px"
+        android:layout_marginTop="16px"
+        android:src="@drawable/ic_launcher" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+id/label"
+        android:textColor="#ffffff"
+        android:textSize="30sp" >
+    </TextView>
+
+</LinearLayout> 

@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/areatext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_centerInParent="true"
+        android:text="NASR CITY"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<ListView
+	    android:id="@+id/qlist"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/username"
+	    android:layout_below="@+id/areatext" />
+
+	<Button 
+	    android:id="@+id/HireMe"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/qlist"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="15dp"
+	    android:text="Hire Me!"
+	    android:textColor="#357ec7"/>
+
+	<ImageView
+	    android:id="@+id/userimage"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="70dp"
+	    android:gravity="center" />
+
+	<TextView
+	    android:id="@+id/username"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/areatext"
+	    android:layout_below="@+id/userimage"
+	    android:layout_marginTop="75dp"
+	    android:text="USERNAME"
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textColor="#357ec7"
+	    android:textSize="18dp" />
+    
+</RelativeLayout>

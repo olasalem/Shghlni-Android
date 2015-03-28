@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    <TextView 
+        android:id="@+id/Uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RatingPrompt"
+        android:layout_alignLeft="@+id/RatingPrompt"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="12dp"
+        android:text="Freelancer Name"
+        android:textSize="18sp"/>
+    <!-- For testing I used android:text; it is Populated from the data base in the .java file -->
+  <RatingBar 
+      android:id="@+id/ratingbar"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/RatingPrompt"
+      android:numStars="5"
+      android:stepSize="1.0"
+      android:layout_marginTop="30dp"
+      android:layout_marginLeft="15dp"
+    />
+	<Button 
+	    android:id="@+id/DoneButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/ratingbar"
+	    android:layout_alignLeft="@+id/ratingbar"
+	    android:layout_marginLeft="85dp"
+	    android:layout_marginTop="30dp"
+	    android:text="Done"
+	   />
+
+	<TextView
+	    android:id="@+id/RatingPrompt"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_alignRight="@+id/ratingbar"
+	    android:layout_marginTop="24dp"
+	    android:gravity="center"
+	    android:text="Rate this Freelancer!"
+	    android:textColor="#357EC7"
+	    android:textSize="25dp" />
+
+</RelativeLayout>

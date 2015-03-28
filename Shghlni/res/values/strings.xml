@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shghlni</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_qualifications">Qualifications</string>
+    <string name="title_activity_show_profile">ShowProfile</string>
+    <string name="title_activity_tab_both">TabBoth</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_fillin__request">Fillin_Request</string>
+
+    <string-array name="qualificationsArabic">
+        <item></item>
+        <item>قائد سيارات</item>
+        <item>الاعتناء بالحدائق</item>
+        <item>تنظيف المنازل</item>
+        <item>العناية بالاطفال</item>
+        <item>مصمم جرافيكس</item>
+        <item>مصمم رسومات متحركة</item>
+        <item>مصمم  ويب</item>
+        <item>مهندس برمجيات</item>
+        <item>مبرمج</item>
+        <item>مدير مشروعات</item>
+        <item>مهندس مدني</item>
+        <item> مهندس صوت</item>
+        <item> مدير تسويق</item>
+        <item> مدير حملات اعلانية</item>
+        <item> مندوب مبيعات</item>
+        <item> محاسب</item>
+        <item> مترجم</item>
+        <item>مدرس خاص</item>
+        <item> سمسار عقارات</item>
+        <item> مقدم خدمات طعام</item>
+        <item> حارس خاص</item>
+        <item> محامي</item>
+        <item> كاتب</item>
+        <item> مصور فوتوجرافي</item>
+        <item>منظم حفلات زفاف</item>
+    </string-array>
+    <string-array name="qualifications">
+        <item></item>
+        <item>Driver</item>
+        <item>Gardener</item>
+        <item>Cleaner</item>
+        <item>Babysitter</item>
+        <item>Graphics Designer</item>
+        <item>Animation Designer</item>
+        <item>Web Developper</item>
+        <item>Software Engineer</item>
+        <item>Coder</item>
+        <item>Project Manager</item>
+        <item>Civil Engineer</item>
+        <item>Audio Engineer</item>
+        <item>Marketing Manager</item>
+        <item>Advertising Manager</item>
+        <item>Sales Person</item>
+        <item>Accounatant</item>
+        <item>Translator</item>
+        <item>Private Tutor</item>
+        <item>Real Estate Agent</item>
+        <item>Catering Service</item>
+        <item>Security Guard</item>
+        <item>Legal Consultant</item>
+        <item>Writer</item>
+        <item>Photographer</item>
+        <item>Party/Wedding Planner</item>
+    </string-array>
+    <string-array name="Areas">
+        <item></item>
+        <item>Fifth District</item>
+        <item>ElSheikh Zayed</item>
+        <item>Helioplis</item>
+        <item>Naser City</item>
+        <item>ElMaadi</item>
+        <item>ElShrouk City</item>
+        <item>6th October City </item>
+        <item>Maser ElGdeda</item>
+        <item>ElKattamyya</item>
+        <item>Madinty</item>
+        <item>ElObour City</item>
+        <item>ElRehab</item>
+        <item>ElZamalik</item>
+        <item>ElMohandseen</item>
+        <item>ElManial</item>
+        <item>ElMukkatem</item>
+        <item>Downtown</item>
+        <item>ElAbbasya</item>
+        <item>Giza</item>
+        <item>10th of Ramadan</item>
+        <item>Cairo</item>
+        <item>Smoha </item>
+        <item>Stanley</item>
+        <item>Abou Qir</item>
+        <item>Roshdy</item>
+        <item>Borg ElArab</item>
+        <item>Luran</item>
+        <item>ElMuntazah</item>
+        <item>San Steafano</item>
+        <item>Miami</item>
+        <item>Sidi Gaber</item>
+        <item>Sidi Beshr</item>
+        <item>Victoria</item>
+        <item>ElMuntazah</item>
+        <item>ElAmria</item>
+        <item>ElChatby</item>
+        <item>Alexandria</item>
+        <item>Port said</item>
+        <item>Suez</item>
+        <item>Ismailia</item>
+        <item>Arish</item>
+        <item>Marca Matrouh</item>
+        <item>Hurgada</item>
+        <item>Asyut</item>
+        <item>Aswan</item>
+        <item>Idfu</item>
+        <item>Luxor</item>
+        <item>Al-Minya</item>
+        <item>Beni Suef</item>
+        <item>Qena</item>
+        <item>Sohag</item>
+        <item>Shubra El-Kheima</item>
+        <item>Damietta</item>
+        <item>ElMahalla Elkubra</item>
+        <item>Al-Mansura</item>
+        <item>Tanta</item>
+        <item>Fayyum</item>
+        <item>Zagazig</item>
+        <item>Damanhur</item>
+        <item>Shibin Elkoum</item>
+        <item>Banha</item>
+        <item>Kefr El-Sheikh</item>
+        <item>Mit Ghamr</item>
+        <item>Desouk</item>
+        <item>Qaliyub</item>
+    </string-array>
+    <string-array name="AreasArabic">
+        <item></item>
+        <item>التجمع الخامس</item>
+        <item>الشيخ زايد</item>
+        <item>هليوبلس</item>
+        <item>مدينة نصر</item>
+        <item>المعادي</item>
+        <item> الشروق</item>
+        <item> السادس من اكتوبر</item>
+        <item>مصر الجديدة</item>
+        <item>القطامية</item>
+        <item>مدينتي</item>
+        <item>مدينة لعبور</item>
+        <item>الرحاب</item>
+        <item>الزمالك</item>
+        <item>المهندسين</item>
+        <item>المنيل</item>
+        <item>المقطم</item>
+        <item>وسط البلد</item>
+        <item>العباسية</item>
+        <item>الجيزة</item>
+        <item>العاشر من رمضان</item>
+        <item>القاهرة</item>
+        <item>سموحة</item>
+        <item>ستانلي</item>
+        <item>ابو قير</item>
+        <item>رشدي</item>
+        <item>برج العرب</item>
+        <item>لوران</item>
+        <item>المنتزه</item>
+        <item>سان ستيفانو</item>
+        <item>ميامي</item>
+        <item>سيدي جابر</item>
+        <item>سيدي بشر</item>
+        <item>فيكتوريا</item>
+        <item>المنتزة</item>
+        <item>الاميرية</item>
+        <item>الشاطبي</item>
+        <item>اسكندرية</item>
+        <item>بورسعيد</item>
+        <item>السويس</item>
+        <item>الاسماعيلية</item>
+        <item>العريش</item>
+        <item>مرسي مطروح</item>
+        <item>الغردقة</item>
+        <item>اسيوط</item>
+        <item>اسوان</item>
+        <item>ادفو</item>
+        <item>الاقصر</item>
+        <item>المنيا</item>
+        <item>بني سويف</item>
+        <item>قنا</item>
+        <item>سوهاج</item>
+        <item>شبرا الخيمة</item>
+        <item>دمياط</item>
+        <item>المحلة الكبري</item>
+        <item>المنصورة</item>
+        <item>طنطا</item>
+        <item>الفيوم</item>
+        <item>الزقازيق</item>
+        <item>دمنهور</item>
+        <item>شبين الكوم</item>
+        <item>بنها</item>
+        <item>كفر الشيخ</item>
+        <item>ميت غمر</item>
+        <item>دسوق</item>
+        <item>قليوب</item>
+    </string-array>
+
+    <string name="title_activity_put_image">PutImage</string>
+    <string name="title_activity_search_result">SearchResult</string>
+    <string name="title_activity_verify">Verify</string>
+
+</resources>
